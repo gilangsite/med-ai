@@ -1,13 +1,12 @@
-// vercel.json
 {
-  "rewrites": [
-    {
-      "source": "/help",
-      "destination": "https://chatbase.co/y7jTzyHhLeJFzUvlpBqqP/help"
-    },
-    {
-      "source": "/help/:path*",
-      "destination": "https://chatbase.co/y7jTzyHhLeJFzUvlpBqqP/help/:path*"
-    }
-  ]
+"rewrites": [
+{
+"source": "/help",
+"destination": "https://chatbase.co/y7jTzyHhLeJFzUvlpBqqP/help"
+},
+{
+"source": "/help/:path*",
+"destination": "https://chatbase.co/y7jTzyHhLeJFzUvlpBqqP/help/:path*"
+}
+]
 }
